@@ -1,1 +1,1 @@
-# krejci.net
+README krejciad.gitgub.io
