@@ -1,130 +1,144 @@
 /*******************************************************
-TITLE: Fluid Two-Column Layout (Basic) V1.0 (Beta)
-DATE: 20060418
-AUTHOR: The CSS Tinderbox - http://www.csstinderbox.com
+TITLE: Fluid Two-Column Layout (Dark Green) V1.0
 *******************************************************/
 
 body {
-margin:0;
-padding:0;
-background-color:#ffffff;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:1em;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a; /* Téměř černá */
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #c0ffc0; /* Světle zelený text */
 }
 
-a{text-decoration:none; color:#000000;}
+a {
+  text-decoration: none;
+  color: #80ff80; /* Jasně zelená pro odkazy */
+}
+
+a:hover {
+  color: #aaffaa; /* Zesvětlená zelená při najetí */
+}
 
 blockquote {
-margin:1em;
-padding:.5em;
-font-size:.9em;
-background-color:#F3F2ED;
-border-top:1px solid #999999;
-border-bottom:1px solid #999999;
+  margin: 1em;
+  padding: .5em;
+  font-size: .9em;
+  background-color: #1a1a1a; /* Tmavě šedé pozadí */
+  border-top: 1px solid #3f3f3f;
+  border-bottom: 1px solid #3f3f3f;
+  color: #a0ffa0;
 }
 
 blockquote p {
-margin:.2em;
+  margin: .2em;
 }
 
 #header {
-margin:2em 2em 0 2em;
-padding:1em 1.5em;
-height:5em;
-background-color:#F3F2ED;
-border:1px solid #eeeeee;
+  margin: 2em 2em 0 2em;
+  padding: 1em 1.5em;
+  height: 5em;
+  background-color: #002800; /* Tmavě zelená */
+  border: 1px solid #0f3f0f;
+  color: #a0ffa0;
 }
 
-#header h1 { 
-margin:0; 
-padding:0;
-font-size:1.2em;
+#header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: #b0ffb0;
 }
 
-#header h3 { 
-margin:0; 
-padding:0;
-font-size:.9em;
+#header h3 {
+  margin: 0;
+  padding: 0;
+  font-size: .9em;
+  color: #a0ffa0;
 }
 
 #leftColumn {
-position:absolute;
-left:2.25em;
-top:10.3em;
-width:14em;
-margin:0;
-padding:1em .5em 2em .5em;
-background:#CCC8B3;
-border:1px solid #eeeeee;
-font-size:.9em;
+  position: absolute;
+  left: 2.25em;
+  top: 10.3em;
+  width: 14em;
+  margin: 0;
+  padding: 1em .5em 2em .5em;
+  background: #001a00; /* Tmavě zelené pozadí */
+  border: 1px solid #0f3f0f;
+  font-size: .9em;
 }
 
-#leftColumn h2 { 
-margin:0 0 -1em 0; 
-padding:0;
-font-size:1em;
-letter-spacing:.1em;
+#leftColumn h2 {
+  margin: 0 0 -1em 0;
+  padding: 0;
+  font-size: 1em;
+  letter-spacing: .1em;
+  color: #b0ffb0;
 }
 
-#leftColumn ul { 
-margin:1.5em 0 0 0; 
-padding:0;
-list-style:none;
+#leftColumn ul {
+  margin: 1.5em 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: #c0ffc0;
 }
 
-#leftColumn li { 
-margin:0 0 .4em 0; 
-padding:0;
+#leftColumn li {
+  margin: 0 0 .4em 0;
+  padding: 0;
 }
 
-#leftColumn li a { 
-margin:0 0 0 .2em;
+#leftColumn li a {
+  margin: 0 0 0 .2em;
+  color: #80ff80;
 }
 
 #centerColumn {
-right:2.25em;
-margin-top:.2em;
-margin-left: 17.50em;
-margin-right:2.25em;
-voice-family: "\"}\"";
-voice-family: inherit;
-margin-left:17.50em;
-margin-right:2.25em;
-padding:1em .5em 2em .5em;
-background:#FFFFFF;
-font-size:.9em;
+  right: 2.25em;
+  margin-top: .2em;
+  margin-left: 17.50em;
+  margin-right: 2.25em;
+  padding: 1em .5em 2em .5em;
+  background: #0a0a0a; /* Tmavé pozadí */
+  font-size: .9em;
+  color: #c0ffc0;
 }
 
 html>body #centerColumn {
-margin-left:17.50em;
-margin-right:2.25em;
+  margin-left: 17.50em;
+  margin-right: 2.25em;
 }
 
-#centerColumn h2 { 
-margin:0 0 -1em 0; 
-padding:0;
-font-size:1em;
-letter-spacing:.1em;
+#centerColumn h2 {
+  margin: 0 0 -1em 0;
+  padding: 0;
+  font-size: 1em;
+  letter-spacing: .1em;
+  color: #b0ffb0;
 }
-
-
 
 #tags {
-margin:0 0 .5em 0;
-width:10em;
-float:left;
-border:none;
-text-align:left;
+  margin: 0 0 .5em 0;
+  width: 10em;
+  float: left;
+  border: none;
+  text-align: left;
 }
 
 #tags img {
-border:none;
+  border: none;
 }
 
 #tags p {
-margin:0 0 .25em 0;
+  margin: 0 0 .25em 0;
 }
 
 #tags a {
-font-size:.7em;
+  font-size: .7em;
+  color: #80ff80; /* Jasně zelená */
+}
+
+#tags a:hover {
+  color: #aaffaa; /* Světlejší zelená při najetí */
 }
